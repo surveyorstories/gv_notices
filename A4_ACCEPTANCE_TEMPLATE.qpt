@@ -1,0 +1,168 @@
+<Layout name="A4_ACCEPTANCE_TEMPLATE" worldFileMap="" units="mm" printResolution="300">
+ <Snapper snapToItems="1" tolerance="5" snapToGrid="0" snapToGuides="1"/>
+ <Grid offsetX="0" offsetY="0" offsetUnits="mm" resUnits="mm" resolution="10"/>
+ <PageCollection>
+  <symbol type="fill" alpha="1" name="" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1">
+   <data_defined_properties>
+    <Option type="Map">
+     <Option type="QString" value="" name="name"/>
+     <Option name="properties"/>
+     <Option type="QString" value="collection" name="type"/>
+    </Option>
+   </data_defined_properties>
+   <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+    <Option type="Map">
+     <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
+     <Option type="QString" value="255,255,255,255" name="color"/>
+     <Option type="QString" value="miter" name="joinstyle"/>
+     <Option type="QString" value="0,0" name="offset"/>
+     <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+     <Option type="QString" value="MM" name="offset_unit"/>
+     <Option type="QString" value="35,35,35,255" name="outline_color"/>
+     <Option type="QString" value="no" name="outline_style"/>
+     <Option type="QString" value="0.26" name="outline_width"/>
+     <Option type="QString" value="MM" name="outline_width_unit"/>
+     <Option type="QString" value="solid" name="style"/>
+    </Option>
+    <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+    <prop k="color" v="255,255,255,255"/>
+    <prop k="joinstyle" v="miter"/>
+    <prop k="offset" v="0,0"/>
+    <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+    <prop k="offset_unit" v="MM"/>
+    <prop k="outline_color" v="35,35,35,255"/>
+    <prop k="outline_style" v="no"/>
+    <prop k="outline_width" v="0.26"/>
+    <prop k="outline_width_unit" v="MM"/>
+    <prop k="style" v="solid"/>
+    <data_defined_properties>
+     <Option type="Map">
+      <Option type="QString" value="" name="name"/>
+      <Option name="properties"/>
+      <Option type="QString" value="collection" name="type"/>
+     </Option>
+    </data_defined_properties>
+   </layer>
+  </symbol>
+  <LayoutItem zValue="0" positionLock="false" id="" referencePoint="0" uuid="{1ddad136-4aff-4dd3-9271-0ff3acc0cfe0}" excludeFromExports="0" blendMode="0" frameJoinStyle="miter" positionOnPage="0,0,mm" itemRotation="0" background="true" position="0,0,mm" opacity="1" size="210,297,mm" templateUuid="{1ddad136-4aff-4dd3-9271-0ff3acc0cfe0}" groupUuid="" visibility="1" frame="false" type="65638" outlineWidthM="0.3,mm">
+   <FrameColor alpha="255" red="0" blue="0" green="0"/>
+   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+   <LayoutObject>
+    <dataDefinedProperties>
+     <Option type="Map">
+      <Option type="QString" value="" name="name"/>
+      <Option name="properties"/>
+      <Option type="QString" value="collection" name="type"/>
+     </Option>
+    </dataDefinedProperties>
+    <customproperties>
+     <Option/>
+    </customproperties>
+   </LayoutObject>
+   <symbol type="fill" alpha="1" name="" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1">
+    <data_defined_properties>
+     <Option type="Map">
+      <Option type="QString" value="" name="name"/>
+      <Option name="properties"/>
+      <Option type="QString" value="collection" name="type"/>
+     </Option>
+    </data_defined_properties>
+    <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+     <Option type="Map">
+      <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
+      <Option type="QString" value="255,255,255,255" name="color"/>
+      <Option type="QString" value="miter" name="joinstyle"/>
+      <Option type="QString" value="0,0" name="offset"/>
+      <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
+      <Option type="QString" value="MM" name="offset_unit"/>
+      <Option type="QString" value="35,35,35,255" name="outline_color"/>
+      <Option type="QString" value="no" name="outline_style"/>
+      <Option type="QString" value="0.26" name="outline_width"/>
+      <Option type="QString" value="MM" name="outline_width_unit"/>
+      <Option type="QString" value="solid" name="style"/>
+     </Option>
+     <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+     <prop k="color" v="255,255,255,255"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="outline_color" v="35,35,35,255"/>
+     <prop k="outline_style" v="no"/>
+     <prop k="outline_width" v="0.26"/>
+     <prop k="outline_width_unit" v="MM"/>
+     <prop k="style" v="solid"/>
+     <data_defined_properties>
+      <Option type="Map">
+       <Option type="QString" value="" name="name"/>
+       <Option name="properties"/>
+       <Option type="QString" value="collection" name="type"/>
+      </Option>
+     </data_defined_properties>
+    </layer>
+   </symbol>
+  </LayoutItem>
+  <GuideCollection visible="1"/>
+ </PageCollection>
+ <LayoutItem multiFrame="{ae00db56-1e4c-4faf-a966-5a024d0c90b4}" multiFrameTemplateUuid="{ae00db56-1e4c-4faf-a966-5a024d0c90b4}" zValue="2" sectionHeight="288.481" positionLock="false" id="acceptance_form" referencePoint="0" uuid="{0386994d-04d9-4bf8-8961-c8038cf3fa3e}" excludeFromExports="0" blendMode="0" frameJoinStyle="miter" positionOnPage="3.365,4.86,mm" itemRotation="0" background="false" position="3.365,4.86,mm" opacity="1" sectionY="0" hidePageIfEmpty="1" sectionWidth="203.27" hideBackgroundIfEmpty="1" size="203.27,288.481,mm" templateUuid="{0386994d-04d9-4bf8-8961-c8038cf3fa3e}" groupUuid="" visibility="1" frame="false" type="65647" sectionX="0" outlineWidthM="0.3,mm">
+  <FrameColor alpha="255" red="0" blue="0" green="0"/>
+  <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" value="" name="name"/>
+     <Option type="Map" name="properties">
+      <Option type="Map" name="dataDefinedPositionY">
+       <Option type="bool" value="false" name="active"/>
+       <Option type="int" value="1" name="type"/>
+       <Option type="QString" value="" name="val"/>
+      </Option>
+     </Option>
+     <Option type="QString" value="collection" name="type"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties>
+    <Option/>
+   </customproperties>
+  </LayoutObject>
+ </LayoutItem>
+ <LayoutMultiFrame resizeMode="3" type="65648" contentMode="1" maxBreakDistance="10" useSmartBreaks="true" stylesheetEnabled="false" url="" uuid="{e3edda8c-1a7f-43a7-8a72-69c37bba18f2}" evaluateExpressions="true" stylesheet="" templateUuid="{e3edda8c-1a7f-43a7-8a72-69c37bba18f2}" html="&lt;!DOCTYPE html>&#xd;&#xa;&lt;html>&#xd;&#xa;&#xd;&#xa;  &lt;head>&#xd;&#xa;    &lt;title>acceptance form&lt;/title>&#xd;&#xa;  &lt;/head>&#xd;&#xa;&#xd;&#xa;  &lt;body>&#xd;&#xa;    &lt;!-- from here onwards acceptance form  -->&#xd;&#xa;    &lt;style>&#xd;&#xa;      .columnClass {&#xd;&#xa;        font-family: Calibri;&#xd;&#xa;&#xd;&#xa;      }&#xd;&#xa;&#xd;&#xa;      .bordered {&#xd;&#xa;        word-wrap: break-word;&#xd;&#xa;        border: 2px solid black;&#xd;&#xa;        /* 1px solid black border */&#xd;&#xa;        padding: 10px;&#xd;&#xa;        /* Optional: Add padding to the element */&#xd;&#xa;      }&#xd;&#xa;&#xd;&#xa;      h1,&#xd;&#xa;      h2,&#xd;&#xa;      h3,&#xd;&#xa;      p ,tr{&#xd;&#xa;        font-family: Gautami, Nirmala UI, Vani;&#xd;&#xa;      }&#xd;&#xa;&#xd;&#xa;      h1,&#xd;&#xa;      h2 {&#xd;&#xa;        margin: 0;&#xd;&#xa;        line-height: 1.2;&#xd;&#xa;        text-decoration: underline;&#xd;&#xa;      }&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;      p {&#xd;&#xa;        margin: 0;&#xd;&#xa;        text-align: Justify;&#xd;&#xa;        line-height: 1.5;&#xd;&#xa;      }&#xd;&#xa;&#xd;&#xa;      h3 {&#xd;&#xa;        text-align: left;&#xd;&#xa;        margin-bottom: 0;&#xd;&#xa;        line-height: 1.0;&#xd;&#xa;      }&#xd;&#xa;&#xd;&#xa;    &lt;/style>&#xd;&#xa;&#xd;&#xa;    &lt;style>&#xd;&#xa;      @media print {&#xd;&#xa;        .page-break {&#xd;&#xa;          page-break-before: always;&#xd;&#xa;          /* Forces a page break before this div when printing */&#xd;&#xa;        }&#xd;&#xa;      }&#xd;&#xa;&#xd;&#xa;    &lt;/style>&#xd;&#xa;    &lt;div class=&quot;page-break&quot;>&lt;/div>&#xd;&#xa;    &lt;div class=&quot;bordered&quot;>&#xd;&#xa;      &lt;h1 style=&quot;&#xd;&#xa;          text-align: center;&#xd;&#xa;         &#xd;&#xa;          margin-top: 0px;&#xd;&#xa;          margin-bottom: 0px;&#xd;&#xa;        &quot;> &lt;br>&#xd;&#xa;        అంగికార లేఖ&#xd;&#xa;        &lt;br> భూమి వివరములు తనిఖీ (గ్రౌండ్ వాలిడేషన్)&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;        &lt;h3 style=&quot;&#xd;&#xa;&#x9;&#x9;&#x9;line-height: 1.2;&#xd;&#xa;          text-align: left;&#xd;&#xa;          margin-top: 20px;&#xd;&#xa;          margin-bottom: 7px;&#xd;&#xa;        &quot;> To,&lt;br>&#xd;&#xa;          గ్రామ సర్వే బృందం, &lt;br>&#xd;&#xa;          [%@notice_village%] గ్రామం, &lt;br>&#xd;&#xa;          [%@notice_mandal%] మండలం,&#xd;&#xa;&#x9;&#x9;&#x9; [%@District_Name%] జిల్లా.&#xd;&#xa;        &lt;/h3>&#xd;&#xa;        &lt;p> &amp;emsp;ఆర్యా,&lt;br>&amp;emsp;&lt;b>[%@notice_mandal%] మండలం, [%@notice_village%] గ్రామము &lt;/b> నందు తేది:______________&#xd;&#xa;          న గ్రామ సర్వే బృందం భూ వివరములు తనికి ( Ground Validation) కొరకు పొలము ఫై నాకు హక్కులు కలిగిన సర్వేనెంబర్ ___&#xd;&#xa;          నందు Ac__cts విస్తీర్ణముకు ప్రస్తుత రీ సర్వేలో ల్యాండ్ పార్సెల్నెంబర్ (LP No.) __ విస్తీర్ణము Ac__cts గా నమోదు&#xd;&#xa;          అయినది అని సమాచారం తెలిపియునారు.&#xd;&#xa;&#xd;&#xa;          &lt;br>&amp;emsp;మీరు తెలిపిన క్రింది సమాచారంనకు అంగీకరిస్తూ నా పొలము సరిహాద్దులలో సర్వే రాళ్ళు నాటుటకు నా యొక్క&#xd;&#xa;          అంగికారము తెలిపుతున్నాము.&#xd;&#xa;          &lt;br>&lt;br>&#xd;&#xa;        &lt;table border=&quot;1&quot; cellpadding=&quot;01&quot; cellspacing=&quot;0&quot; style=&quot;&#xd;&#xa;          width: 100%;&#xd;&#xa;&#xd;&#xa;          text-align: center;&#xd;&#xa;          border-collapse: collapse;&#xd;&#xa;          border: 1px solid black;&#xd;&#xa;        &quot;>&#xd;&#xa;          &lt;tbody id=&quot;acceptance&quot;>&#xd;&#xa;            &lt;!-- Existing rows -->&#xd;&#xa;&#xd;&#xa;            &lt;tr style=&quot;font-weight:bold;font-family:Gautami, Nirmala UI,Vani;&quot;>&#xd;&#xa;              &lt;td rowspan=&quot;1&quot;>వరుస సంఖ్య&lt;/td>&#xd;&#xa;              &lt;td rowspan=&quot;1&quot;>పాత సర్వే నెంబరు&lt;/td>&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;              &lt;td>పాత విస్తీర్ణం&lt;/td>&#xd;&#xa;              &lt;td>ల్యాండ్ పార్సెల్ నెం&lt;/td>&#xd;&#xa;              &lt;td>ప్రస్తుత రీ సర్వే ప్రకారము విస్తీర్ణం&lt;/td>&#xd;&#xa;              &lt;td>భూ తరగతి&lt;/td>&#xd;&#xa;              &lt;td>రిమార్కులు&lt;/td>&#xd;&#xa;            &lt;/tr>&#xd;&#xa;          &lt;/tbody>&#xd;&#xa;        &lt;/table>&#xd;&#xa;&#xd;&#xa;        &lt;script>&#xd;&#xa;          function refreshTable() {&#xd;&#xa;            const tableBody = document.getElementById(&quot;acceptance&quot;);&#xd;&#xa;&#xd;&#xa;            let lpm_no = &quot;[% eval(@lpm_variable)%]&quot;.split('$%*&lt;>^~@');&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;            let acres = &quot;[% eval(@old_acvariable)%]&quot;.split('$%*&lt;>^~@');&#xd;&#xa;            if (acres == 0) {&#xd;&#xa;              acres = ' '&#xd;&#xa;            }&#xd;&#xa;            let hectares1 = &quot;[% eval(@old_hectvariable)%]&quot;.split('$%*&lt;>^~@');&#xd;&#xa;            if (hectares1 == 0) {&#xd;&#xa;              hectares1 = ' '&#xd;&#xa;            }&#xd;&#xa;            let areas = &quot;[% eval(@new_acvariable)%]&quot;.split('$%*&lt;>^~@');&#xd;&#xa;            let classfication = &quot;[% eval(@classfication)%]&quot;.split('$%*&lt;>^~@');&#xd;&#xa;            let remarks = &quot;[% eval(@remarksvariable)%]&quot;.split('$%*&lt;>^~@');&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;            let surveyNos = &quot;[% eval(@synosvariable)%]&quot;.split('$%*&lt;>^~@');&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;            const numRows = Math.max(&#xd;&#xa;              lpm_no.length,&#xd;&#xa;              surveyNos.length,&#xd;&#xa;              acres.length,&#xd;&#xa;              hectares1.length,&#xd;&#xa;              areas.length,&#xd;&#xa;              classfication.length,&#xd;&#xa;              remarks.length&#xd;&#xa;            );&#xd;&#xa;&#xd;&#xa;            for (let i = 0; i &lt; numRows; i++) {&#xd;&#xa;              const row = document.createElement(&quot;tr&quot;);&#xd;&#xa;              row.classList.add('columnClass');&#xd;&#xa;              const cells = [&#xd;&#xa;                [i + 1] || &quot;&quot;,&#xd;&#xa;                surveyNos[i] || &quot;&quot;,&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;                (acres[i] === '0' ? ' ' : acres[i]) || &quot;&quot;,    // old ac extent&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;                lpm_no[i] || &quot;&quot;,&#xd;&#xa;&#xd;&#xa;                areas[i] || &quot;&quot;,&#xd;&#xa;&#xd;&#xa;                classfication[i] || &quot;&quot;,&#xd;&#xa;                remarks[i] || &quot;&quot;,&#xd;&#xa;              ];&#xd;&#xa;&#xd;&#xa;              cells.forEach((value) => {&#xd;&#xa;                const cell = document.createElement(&quot;td&quot;);&#xd;&#xa;                cell.textContent = value;&#xd;&#xa;                row.appendChild(cell);&#xd;&#xa;              });&#xd;&#xa;&#xd;&#xa;              tableBody.appendChild(row);&#xd;&#xa;            }&#xd;&#xa;          }&#xd;&#xa;&#xd;&#xa;          // Call the function to populate the table initially&#xd;&#xa;          refreshTable();&#xd;&#xa;        &lt;/script>&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;        &lt;h3 style=&quot;text-align: right;&quot;>ఇట్లు, &amp;emsp;&amp;emsp;&amp;emsp; &amp;emsp;&amp;emsp;&amp;emsp;&#xd;&#xa;        &lt;/h3>&lt;br>&#xd;&#xa;        &lt;h3 style=&quot;display: flex;&#xd;&#xa;  justify-content: space-between;&quot;>&#xd;&#xa;          &lt;span style=&quot;text-align:left&quot;>తేది: &lt;/span>&#xd;&#xa;          &lt;span style=&quot;text-align:right&quot;> పేరు:శ్రీ [%&quot;pattadar&quot; || coalesce( ' / ' || &quot;pattadarrelation&quot; ,'') || ' ('&#xd;&#xa;            || &quot;khata_no&quot; || ')'%] &amp;emsp;&amp;emsp;&amp;emsp;&lt;/span>&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;        &lt;/h3>&#xd;&#xa;&#xd;&#xa;        &lt;h3 style=&quot;display: flex;&#xd;&#xa;  justify-content: space-between;&quot;>&#xd;&#xa;          &lt;span style=&quot;text-align:left&quot;>చిరునామా:&lt;/span>&#xd;&#xa;          &lt;span style=&quot;text-align:right&quot;>మొబైల్ నెం: &amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp; &lt;/span>&#xd;&#xa;        &lt;/h3>&#xd;&#xa;&#xd;&#xa;    &lt;/div>&#xd;&#xa;  &lt;/body>&#xd;&#xa;&#xd;&#xa;&lt;/html>&#xd;&#xa;">
+  <childFrame uuid="{0386994d-04d9-4bf8-8961-c8038cf3fa3e}" templateUuid="{0386994d-04d9-4bf8-8961-c8038cf3fa3e}"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option type="QString" value="" name="name"/>
+     <Option type="Map" name="properties">
+      <Option type="Map" name="dataDefinedPositionY">
+       <Option type="bool" value="false" name="active"/>
+       <Option type="int" value="1" name="type"/>
+       <Option type="QString" value="" name="val"/>
+      </Option>
+     </Option>
+     <Option type="QString" value="collection" name="type"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties>
+    <Option/>
+   </customproperties>
+  </LayoutObject>
+ </LayoutMultiFrame>
+ <customproperties>
+  <Option type="Map">
+   <Option type="QString" value="png" name="atlasRasterFormat"/>
+   <Option type="int" value="1" name="forceVector"/>
+   <Option type="int" value="1" name="pdfAppendGeoreference"/>
+   <Option type="int" value="0" name="pdfCreateGeoPdf"/>
+   <Option type="int" value="0" name="pdfDisableRasterTiles"/>
+   <Option type="QString" value="" name="pdfExportThemes"/>
+   <Option type="int" value="0" name="pdfIncludeMetadata"/>
+   <Option type="QString" value="damara_bb8ac907_4b41_4f50_bc8b_8ba72f34bc13" name="pdfLayerOrder"/>
+   <Option type="int" value="1" name="pdfLosslessImages"/>
+   <Option type="int" value="0" name="pdfOgcBestPracticeFormat"/>
+   <Option type="int" value="1" name="pdfSimplify"/>
+   <Option type="int" value="1" name="pdfTextFormat"/>
+   <Option type="bool" value="true" name="singleFile"/>
+  </Option>
+ </customproperties>
+ <Atlas coverageLayerName="Khata_Data" enabled="1" filenamePattern=" eval( @atlaspgname) ||  replace(  &quot;pattadar&quot; ,'/','_')" pageNameExpression=" eval( @atlaspgname)" filterFeatures="0" coverageLayerProvider="ogr" coverageLayer="Khata_Data_5ef31525_ee72_4a30_822a_0556f5ca3a19" coverageLayerSource="D:/R-Lpms/test/modeltest/modeltest/Khata_Data.gpkg" sortKey="to_real(  eval( @atlaspgname))" sortAscending="1" hideCoverage="0" sortFeatures="1"/>
+</Layout>
