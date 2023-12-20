@@ -1,102 +1,160 @@
 <Layout name="A4_GROUND_VALIDATION_TEMPLATE" worldFileMap="" units="mm" printResolution="300">
- <Snapper snapToItems="1" tolerance="5" snapToGrid="0" snapToGuides="1"/>
- <Grid offsetX="0" offsetY="0" offsetUnits="mm" resUnits="mm" resolution="10"/>
+ <Snapper snapToGrid="0" snapToGuides="1" tolerance="5" snapToItems="1"/>
+ <Grid resUnits="mm" resolution="10" offsetY="0" offsetX="0" offsetUnits="mm"/>
  <PageCollection>
-  <symbol type="fill" alpha="1" name="" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1">
+  <symbol name="" frame_rate="10" alpha="1" type="fill" is_animated="0" force_rhr="0" clip_to_extent="1">
    <data_defined_properties>
     <Option type="Map">
-     <Option type="QString" value="" name="name"/>
+     <Option name="name" type="QString" value=""/>
      <Option name="properties"/>
-     <Option type="QString" value="collection" name="type"/>
+     <Option name="type" type="QString" value="collection"/>
     </Option>
    </data_defined_properties>
-   <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+   <layer enabled="1" locked="0" pass="0" class="SimpleFill">
     <Option type="Map">
-     <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
-     <Option type="QString" value="255,255,255,255" name="color"/>
-     <Option type="QString" value="miter" name="joinstyle"/>
-     <Option type="QString" value="0,0" name="offset"/>
-     <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
-     <Option type="QString" value="MM" name="offset_unit"/>
-     <Option type="QString" value="35,35,35,255" name="outline_color"/>
-     <Option type="QString" value="no" name="outline_style"/>
-     <Option type="QString" value="0.26" name="outline_width"/>
-     <Option type="QString" value="MM" name="outline_width_unit"/>
-     <Option type="QString" value="solid" name="style"/>
+     <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+     <Option name="color" type="QString" value="255,255,255,255"/>
+     <Option name="joinstyle" type="QString" value="miter"/>
+     <Option name="offset" type="QString" value="0,0"/>
+     <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+     <Option name="offset_unit" type="QString" value="MM"/>
+     <Option name="outline_color" type="QString" value="35,35,35,255"/>
+     <Option name="outline_style" type="QString" value="no"/>
+     <Option name="outline_width" type="QString" value="0.26"/>
+     <Option name="outline_width_unit" type="QString" value="MM"/>
+     <Option name="style" type="QString" value="solid"/>
     </Option>
-    <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-    <prop k="color" v="255,255,255,255"/>
-    <prop k="joinstyle" v="miter"/>
-    <prop k="offset" v="0,0"/>
-    <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-    <prop k="offset_unit" v="MM"/>
-    <prop k="outline_color" v="35,35,35,255"/>
-    <prop k="outline_style" v="no"/>
-    <prop k="outline_width" v="0.26"/>
-    <prop k="outline_width_unit" v="MM"/>
-    <prop k="style" v="solid"/>
+    <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+    <prop v="255,255,255,255" k="color"/>
+    <prop v="miter" k="joinstyle"/>
+    <prop v="0,0" k="offset"/>
+    <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+    <prop v="MM" k="offset_unit"/>
+    <prop v="35,35,35,255" k="outline_color"/>
+    <prop v="no" k="outline_style"/>
+    <prop v="0.26" k="outline_width"/>
+    <prop v="MM" k="outline_width_unit"/>
+    <prop v="solid" k="style"/>
     <data_defined_properties>
      <Option type="Map">
-      <Option type="QString" value="" name="name"/>
+      <Option name="name" type="QString" value=""/>
       <Option name="properties"/>
-      <Option type="QString" value="collection" name="type"/>
+      <Option name="type" type="QString" value="collection"/>
      </Option>
     </data_defined_properties>
    </layer>
   </symbol>
-  <LayoutItem zValue="0" positionLock="false" id="" referencePoint="0" uuid="{c533ce07-1d63-4364-b0f3-473b2de995e2}" excludeFromExports="0" blendMode="0" frameJoinStyle="miter" positionOnPage="0,0,mm" itemRotation="0" background="true" position="0,0,mm" opacity="1" size="210,297,mm" templateUuid="{c533ce07-1d63-4364-b0f3-473b2de995e2}" groupUuid="" visibility="1" frame="false" type="65638" outlineWidthM="0.3,mm">
-   <FrameColor alpha="255" red="0" blue="0" green="0"/>
-   <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+  <LayoutItem blendMode="0" id="" type="65638" itemRotation="0" positionOnPage="0,0,mm" positionLock="false" excludeFromExports="0" frameJoinStyle="miter" frame="false" opacity="1" outlineWidthM="0.3,mm" templateUuid="{0629eeab-bc89-4451-a82f-40f3aa61f176}" groupUuid="" size="210,297,mm" visibility="1" position="0,0,mm" zValue="0" referencePoint="0" background="true" uuid="{0629eeab-bc89-4451-a82f-40f3aa61f176}">
+   <FrameColor green="0" alpha="255" red="0" blue="0"/>
+   <BackgroundColor green="255" alpha="255" red="255" blue="255"/>
    <LayoutObject>
     <dataDefinedProperties>
      <Option type="Map">
-      <Option type="QString" value="" name="name"/>
+      <Option name="name" type="QString" value=""/>
       <Option name="properties"/>
-      <Option type="QString" value="collection" name="type"/>
+      <Option name="type" type="QString" value="collection"/>
      </Option>
     </dataDefinedProperties>
     <customproperties>
      <Option/>
     </customproperties>
    </LayoutObject>
-   <symbol type="fill" alpha="1" name="" is_animated="0" force_rhr="0" frame_rate="10" clip_to_extent="1">
+   <symbol name="" frame_rate="10" alpha="1" type="fill" is_animated="0" force_rhr="0" clip_to_extent="1">
     <data_defined_properties>
      <Option type="Map">
-      <Option type="QString" value="" name="name"/>
+      <Option name="name" type="QString" value=""/>
       <Option name="properties"/>
-      <Option type="QString" value="collection" name="type"/>
+      <Option name="type" type="QString" value="collection"/>
      </Option>
     </data_defined_properties>
-    <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+    <layer enabled="1" locked="0" pass="0" class="SimpleFill">
      <Option type="Map">
-      <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
-      <Option type="QString" value="255,255,255,255" name="color"/>
-      <Option type="QString" value="miter" name="joinstyle"/>
-      <Option type="QString" value="0,0" name="offset"/>
-      <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
-      <Option type="QString" value="MM" name="offset_unit"/>
-      <Option type="QString" value="35,35,35,255" name="outline_color"/>
-      <Option type="QString" value="no" name="outline_style"/>
-      <Option type="QString" value="0.26" name="outline_width"/>
-      <Option type="QString" value="MM" name="outline_width_unit"/>
-      <Option type="QString" value="solid" name="style"/>
+      <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+      <Option name="color" type="QString" value="255,255,255,255"/>
+      <Option name="joinstyle" type="QString" value="miter"/>
+      <Option name="offset" type="QString" value="0,0"/>
+      <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+      <Option name="offset_unit" type="QString" value="MM"/>
+      <Option name="outline_color" type="QString" value="35,35,35,255"/>
+      <Option name="outline_style" type="QString" value="no"/>
+      <Option name="outline_width" type="QString" value="0.26"/>
+      <Option name="outline_width_unit" type="QString" value="MM"/>
+      <Option name="style" type="QString" value="solid"/>
      </Option>
-     <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-     <prop k="color" v="255,255,255,255"/>
-     <prop k="joinstyle" v="miter"/>
-     <prop k="offset" v="0,0"/>
-     <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-     <prop k="offset_unit" v="MM"/>
-     <prop k="outline_color" v="35,35,35,255"/>
-     <prop k="outline_style" v="no"/>
-     <prop k="outline_width" v="0.26"/>
-     <prop k="outline_width_unit" v="MM"/>
-     <prop k="style" v="solid"/>
+     <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+     <prop v="255,255,255,255" k="color"/>
+     <prop v="miter" k="joinstyle"/>
+     <prop v="0,0" k="offset"/>
+     <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+     <prop v="MM" k="offset_unit"/>
+     <prop v="35,35,35,255" k="outline_color"/>
+     <prop v="no" k="outline_style"/>
+     <prop v="0.26" k="outline_width"/>
+     <prop v="MM" k="outline_width_unit"/>
+     <prop v="solid" k="style"/>
      <data_defined_properties>
       <Option type="Map">
-       <Option type="QString" value="" name="name"/>
+       <Option name="name" type="QString" value=""/>
        <Option name="properties"/>
-       <Option type="QString" value="collection" name="type"/>
+       <Option name="type" type="QString" value="collection"/>
+      </Option>
+     </data_defined_properties>
+    </layer>
+   </symbol>
+  </LayoutItem>
+  <LayoutItem blendMode="0" id="" type="65638" itemRotation="0" positionOnPage="0,0,mm" positionLock="false" excludeFromExports="0" frameJoinStyle="miter" frame="false" opacity="1" outlineWidthM="0.3,mm" templateUuid="{1bb4fbc4-fc60-4c43-84e0-78cd7f5e047c}" groupUuid="" size="210,297,mm" visibility="1" position="0,307,mm" zValue="0" referencePoint="0" background="true" uuid="{1bb4fbc4-fc60-4c43-84e0-78cd7f5e047c}">
+   <FrameColor green="0" alpha="255" red="0" blue="0"/>
+   <BackgroundColor green="255" alpha="255" red="255" blue="255"/>
+   <LayoutObject>
+    <dataDefinedProperties>
+     <Option type="Map">
+      <Option name="name" type="QString" value=""/>
+      <Option name="properties"/>
+      <Option name="type" type="QString" value="collection"/>
+     </Option>
+    </dataDefinedProperties>
+    <customproperties>
+     <Option/>
+    </customproperties>
+   </LayoutObject>
+   <symbol name="" frame_rate="10" alpha="1" type="fill" is_animated="0" force_rhr="0" clip_to_extent="1">
+    <data_defined_properties>
+     <Option type="Map">
+      <Option name="name" type="QString" value=""/>
+      <Option name="properties"/>
+      <Option name="type" type="QString" value="collection"/>
+     </Option>
+    </data_defined_properties>
+    <layer enabled="1" locked="0" pass="0" class="SimpleFill">
+     <Option type="Map">
+      <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+      <Option name="color" type="QString" value="255,255,255,255"/>
+      <Option name="joinstyle" type="QString" value="miter"/>
+      <Option name="offset" type="QString" value="0,0"/>
+      <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
+      <Option name="offset_unit" type="QString" value="MM"/>
+      <Option name="outline_color" type="QString" value="35,35,35,255"/>
+      <Option name="outline_style" type="QString" value="no"/>
+      <Option name="outline_width" type="QString" value="0.26"/>
+      <Option name="outline_width_unit" type="QString" value="MM"/>
+      <Option name="style" type="QString" value="solid"/>
+     </Option>
+     <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+     <prop v="255,255,255,255" k="color"/>
+     <prop v="miter" k="joinstyle"/>
+     <prop v="0,0" k="offset"/>
+     <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+     <prop v="MM" k="offset_unit"/>
+     <prop v="35,35,35,255" k="outline_color"/>
+     <prop v="no" k="outline_style"/>
+     <prop v="0.26" k="outline_width"/>
+     <prop v="MM" k="outline_width_unit"/>
+     <prop v="solid" k="style"/>
+     <data_defined_properties>
+      <Option type="Map">
+       <Option name="name" type="QString" value=""/>
+       <Option name="properties"/>
+       <Option name="type" type="QString" value="collection"/>
       </Option>
      </data_defined_properties>
     </layer>
@@ -104,15 +162,15 @@
   </LayoutItem>
   <GuideCollection visible="1"/>
  </PageCollection>
- <LayoutItem multiFrame="{84d2ec7e-aadb-496e-bc01-c99c4d06861d}" multiFrameTemplateUuid="{84d2ec7e-aadb-496e-bc01-c99c4d06861d}" zValue="11" sectionHeight="291.926" positionLock="false" id="gv_notice" referencePoint="0" uuid="{3f4baed2-98eb-4483-a195-74d960f8dd27}" excludeFromExports="0" blendMode="0" frameJoinStyle="miter" positionOnPage="3.36485,1.34766,mm" itemRotation="0" background="false" position="3.36485,1.34766,mm" opacity="1" sectionY="0" hidePageIfEmpty="1" sectionWidth="203.27" hideBackgroundIfEmpty="1" size="203.27,291.926,mm" templateUuid="{3f4baed2-98eb-4483-a195-74d960f8dd27}" groupUuid="" visibility="1" frame="false" type="65647" sectionX="0" outlineWidthM="0.3,mm">
-  <FrameColor alpha="255" red="0" blue="0" green="0"/>
-  <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+ <LayoutItem sectionHeight="287.04" blendMode="0" id="gv_notice" type="65647" itemRotation="0" positionOnPage="3.36485,1.34766,mm" hidePageIfEmpty="1" positionLock="false" excludeFromExports="0" frameJoinStyle="miter" frame="false" sectionX="0" opacity="1" outlineWidthM="0.3,mm" templateUuid="{58baf5b8-8147-48a7-9fed-cc1330e7a52a}" multiFrame="{84d2ec7e-aadb-496e-bc01-c99c4d06861d}" sectionWidth="203.27" groupUuid="" size="203.27,291.926,mm" sectionY="0" visibility="1" position="3.36485,1.34766,mm" zValue="11" referencePoint="0" multiFrameTemplateUuid="{84d2ec7e-aadb-496e-bc01-c99c4d06861d}" background="false" uuid="{58baf5b8-8147-48a7-9fed-cc1330e7a52a}" hideBackgroundIfEmpty="1">
+  <FrameColor green="0" alpha="255" red="0" blue="0"/>
+  <BackgroundColor green="255" alpha="255" red="255" blue="255"/>
   <LayoutObject>
    <dataDefinedProperties>
     <Option type="Map">
-     <Option type="QString" value="" name="name"/>
+     <Option name="name" type="QString" value=""/>
      <Option name="properties"/>
-     <Option type="QString" value="collection" name="type"/>
+     <Option name="type" type="QString" value="collection"/>
     </Option>
    </dataDefinedProperties>
    <customproperties>
@@ -120,14 +178,31 @@
    </customproperties>
   </LayoutObject>
  </LayoutItem>
- <LayoutMultiFrame resizeMode="1" type="65648" contentMode="1" maxBreakDistance="16" useSmartBreaks="true" stylesheetEnabled="false" url="" uuid="{8687b5a7-f305-406b-945a-4395bb2f6591}" evaluateExpressions="true" stylesheet="" templateUuid="{8687b5a7-f305-406b-945a-4395bb2f6591}" html="&lt;!DOCTYPE html>&#xd;&#xa;&lt;html lang=&quot;en&quot;>&#xd;&#xa;  &lt;head>&#xd;&#xa;    &lt;meta charset=&quot;UTF-8&quot; />&#xd;&#xa;    &lt;title>gv_notices&lt;/title>&#xd;&#xa;    &lt;style>&#xd;&#xa;      /* Apply styles for page breaks */&#xd;&#xa;      .columnClass {&#xd;&#xa;        font-family: Calibri;&#xd;&#xa;      }&#xd;&#xa;      h1,&#xd;&#xa;      h2,&#xd;&#xa;      h3,&#xd;&#xa;      p,&#xd;&#xa;      tr {&#xd;&#xa;        font-family: Gautami, Nirmala UI, Vani;&#xd;&#xa;      }&#xd;&#xa;      h1,&#xd;&#xa;      h2 {&#xd;&#xa;        margin: 0;&#xd;&#xa;        line-height: 1.2;&#xd;&#xa;        text-decoration: underline;&#xd;&#xa;      }&#xd;&#xa;&#xd;&#xa;      p {&#xd;&#xa;        margin: 0;&#xd;&#xa;        text-align: Justify;&#xd;&#xa;        line-height: 1.5;&#xd;&#xa;      }&#xd;&#xa;      h3 {&#xd;&#xa;        text-align: left;&#xd;&#xa;        margin-bottom: 0;&#xd;&#xa;        line-height: 1;&#xd;&#xa;      }&#xd;&#xa;      .bordered {&#xd;&#xa;        word-wrap: break-word;&#xd;&#xa;        border: 2px solid black; /* 1px solid black border */&#xd;&#xa;        padding: 10px; /* Optional: Add padding to the element */&#xd;&#xa;      }&#xd;&#xa;    &lt;/style>&#xd;&#xa;  &lt;/head>&#xd;&#xa;  &lt;body>&#xd;&#xa;    &lt;!-- First page content -->&#xd;&#xa;    &lt;div class=&quot;bordered&quot;>&#xd;&#xa;      &lt;h1&#xd;&#xa;        style=&quot;&#xd;&#xa;          text-align: center;&#xd;&#xa;          margin-top: px;&#xd;&#xa;          margin-top: 0px;&#xd;&#xa;          margin-bottom: 0px;&#xd;&#xa;        &quot;&#xd;&#xa;      >&#xd;&#xa;        ఫారం – 46&#xd;&#xa;      &lt;/h1>&#xd;&#xa;      &lt;h2 style=&quot;text-align: center; margin-top: 0px; margin-bottom: 0px&quot;>&#xd;&#xa;        ఆంధ్రప్రదేశ్ సర్వే మరియు సరిహద్దుల చట్టం, 1923 లోని 9(2) సెక్షన్&#xd;&#xa;        ప్రకారము నోటీసు&#xd;&#xa;      &lt;/h2>&#xd;&#xa;&#xd;&#xa;      &lt;h3>&#xd;&#xa;        శ్రీ [%&quot;pattadar&quot; || coalesce( ' / ' || &quot;pattadarrelation&quot; ,'') || ' ('&#xd;&#xa;        || &quot;khata_no&quot; || ')'%],&#xd;&#xa;      &lt;/h3>&#xd;&#xa;      &lt;p&#xd;&#xa;        style=&quot;&#xd;&#xa;          font-weight: bold;&#xd;&#xa;          text-align: left;&#xd;&#xa;          margin-top: px;&#xd;&#xa;          margin-top: 0px;&#xd;&#xa;          margin-bottom: 7px;&#xd;&#xa;        &quot;&#xd;&#xa;      >&#xd;&#xa;        [%@notice_village%] గ్రామం, [%@notice_mandal%] మండలం  [%@District_Name%] జిల్లా.&#xd;&#xa;      &lt;/p>&#xd;&#xa;      &lt;p>&#xd;&#xa;        &amp;emsp;సదరు చట్టం 9(1) వ సెక్షన్ ప్రకారము ఈ క్రింద సంతకము చేసిన సమర్ధ&#xd;&#xa;        సర్వే అధికారి వల్ల ఈ క్రింది తెలిపిన వివరములను నిర్ణయించడమైనది.&#xd;&#xa;&#xd;&#xa;        &lt;br />&amp;emsp; ఈ క్రింది జాబితా నందు తెలిపిన భూముల సరిహద్దుల నిర్ణయం మరియు&#xd;&#xa;        కొలత సమయము నందు ఏవిధమైన తగాదాలు నాకు తెలియపరచనందున, సదరు చట్టం లోని&#xd;&#xa;        10(1) సెక్షన్ ననుసరించి, అభ్యంతరములు ఏమియు లేవని భావించి నేను&#xd;&#xa;        ఇందుమూలముగా ఈ భూమి యొక్క సర్వే పటములలో పొందుపరచబడిన సరిహద్దులు తగాదాలు&#xd;&#xa;        లేనట్లుగాను, అవిసరిగా వున్నవని నిర్ధారించి రికార్డులు తయారు&#xd;&#xa;        చేసియున్నాను.&#xd;&#xa;&#xd;&#xa;        &lt;br />&amp;emsp;సదరు సర్వే రిజిస్టర్ లో నమోదు కాబడిన భూముల వివరములను ఈ&#xd;&#xa;        క్రింది తెలిపిన జాబితా లో తెలియపరచడమైనది. ఈ జాబితా పై ఏవిధమైన&#xd;&#xa;        అభ్యంతరములు ఉన్నచో వాటిని ఈ నోటీసు జారీ అయిన తేది నుండి 21 దినములలో మండల&#xd;&#xa;        రెవిన్యూ కార్యాలయము లో వుండు అప్పీలు సర్వే అధికారి గారికి తగిన నమూనా&#xd;&#xa;        పత్రములో అప్పీలు సమర్పించుకోవచ్చును. ప్రత్యేక విషయములో తప్ప, ప్రతి సర్వే&#xd;&#xa;        పటమునకు సాధారముగా 50/- రూ. రుసుము దరఖాస్తుతో జతపరచి సర్వే పటము కాపీలను&#xd;&#xa;        పొందవచ్చును.&#xd;&#xa;&#xd;&#xa;        &lt;br />&amp;emsp;షరా: ఆంధ్రప్రదేశ్ సర్వే మరియు సరిహద్దుల చట్టం, 1923 లోని&#xd;&#xa;        10(1) వ సిక్షన్ ప్రకారము ఈ భూమి సరిహద్దుల విషయమై ఎటువంటి అభ్యంతరము&#xd;&#xa;        లేదనియు, సెక్షన్ (11) ప్రకారము అప్పీలు మాత్రమే వున్నదని తెలియచేయడమైనది.&#xd;&#xa;      &lt;/p>&#xd;&#xa;      &lt;br />&#xd;&#xa;&#xd;&#xa;      &lt;table&#xd;&#xa;        border=&quot;1&quot;&#xd;&#xa;        cellpadding=&quot;0&quot;&#xd;&#xa;        cellspacing=&quot;0&quot;&#xd;&#xa;        style=&quot;&#xd;&#xa;          width: 100%;&#xd;&#xa;&#xd;&#xa;          text-align: center;&#xd;&#xa;          border-collapse: collapse;&#xd;&#xa;          border: 1px solid black;&#xd;&#xa;        &quot;&#xd;&#xa;      >&#xd;&#xa;        &lt;tbody id=&quot;tableBody&quot;>&#xd;&#xa;          &lt;!-- Existing rows -->&#xd;&#xa;          &lt;tr&#xd;&#xa;            style=&quot;&#xd;&#xa;              height: 20px;&#xd;&#xa;              font-weight: bold;&#xd;&#xa;              font-family: Gautami, Nirmala UI, Vani;&#xd;&#xa;            &quot;&#xd;&#xa;          >&#xd;&#xa;            &lt;td>ప్రస్తుత రీ సర్వే&lt;/td>&#xd;&#xa;            &lt;td colspan=&quot;3&quot;>రికార్డ్స్ అఫ్ రైట్స్ ప్రకారం&lt;/td>&#xd;&#xa;            &lt;td colspan=&quot;2&quot;>ప్రస్తుత రీ సర్వే ప్రకారము&lt;/td>&#xd;&#xa;            &lt;td rowspan=&quot;3&quot;>రిమార్కులు&lt;/td>&#xd;&#xa;          &lt;/tr>&#xd;&#xa;          &lt;tr style=&quot;font-weight: bold; font-family: Gautami, Nirmala UI, Vani&quot;>&#xd;&#xa;            &lt;td rowspan=&quot;2&quot;>ల్యాండ్ పార్సెల్ నెంబర్&lt;/td>&#xd;&#xa;            &lt;td rowspan=&quot;2&quot;>సర్వే నెంబరు- సబ్ డివిజన్ నెంబర్&lt;/td>&#xd;&#xa;            &lt;td colspan=&quot;2&quot;>విస్తీరణము&lt;/td>&#xd;&#xa;            &lt;td colspan=&quot;2&quot;>విస్తీరణము&lt;/td>&#xd;&#xa;          &lt;/tr>&#xd;&#xa;          &lt;tr&#xd;&#xa;            style=&quot;&#xd;&#xa;              height: 20px;&#xd;&#xa;              font-weight: bold;&#xd;&#xa;              font-family: Gautami, Nirmala UI, Vani;&#xd;&#xa;            &quot;&#xd;&#xa;          >&#xd;&#xa;            &lt;td>ఎ. సెంట్లు&lt;/td>&#xd;&#xa;            &lt;td>హె.ఏర్లు. చ.మీ&lt;/td>&#xd;&#xa;            &lt;td>ఎ. సెంట్లు&lt;/td>&#xd;&#xa;            &lt;td>హె.ఏర్లు. చ.మీ&lt;/td>&#xd;&#xa;          &lt;/tr>&#xd;&#xa;        &lt;/tbody>&#xd;&#xa;      &lt;/table>&#xd;&#xa;&#xd;&#xa;      &lt;script>&#xd;&#xa;        function refreshTable() {&#xd;&#xa;          const tableBody = document.getElementById(&quot;tableBody&quot;);&#xd;&#xa;&#xd;&#xa;          let lpm_no = &quot;[% eval(@lpm_variable)%]&quot;.split(&quot;$%*&lt;>^~@&quot;);&#xd;&#xa;&#xd;&#xa;          let acres = &quot;[% eval(@old_acvariable)%]&quot;.split(&quot;$%*&lt;>^~@&quot;);&#xd;&#xa;&#xd;&#xa;          let hectares1 = &quot;[% eval(@old_hectvariable)%]&quot;.split(&quot;$%*&lt;>^~@&quot;);&#xd;&#xa;&#xd;&#xa;          let areas = &quot;[% eval(@new_acvariable)%]&quot;.split(&quot;$%*&lt;>^~@&quot;);&#xd;&#xa;          let hectares2 = &quot;[% eval(@new_hectvariable)%]&quot;.split(&quot;$%*&lt;>^~@&quot;);&#xd;&#xa;          let remarks = &quot;[% eval(@remarksvariable)%]&quot;.split(&quot;$%*&lt;>^~@&quot;);&#xd;&#xa;&#xd;&#xa;          let surveyNos = &quot;[% eval(@synosvariable)%]&quot;.split(&quot;$%*&lt;>^~@&quot;);&#xd;&#xa;&#xd;&#xa;          const numRows = Math.max(&#xd;&#xa;            lpm_no.length,&#xd;&#xa;            surveyNos.length,&#xd;&#xa;            acres.length,&#xd;&#xa;            hectares1.length,&#xd;&#xa;            areas.length,&#xd;&#xa;            hectares2.length,&#xd;&#xa;            remarks.length&#xd;&#xa;          );&#xd;&#xa;&#xd;&#xa;          for (let i = 0; i &lt; numRows; i++) {&#xd;&#xa;            const row = document.createElement(&quot;tr&quot;);&#xd;&#xa;            row.classList.add(&quot;columnClass&quot;);&#xd;&#xa;            const cells = [&#xd;&#xa;              lpm_no[i] || &quot;&quot;,&#xd;&#xa;              surveyNos[i] || &quot;&quot;,&#xd;&#xa;              (acres[i] === &quot;0&quot; ? &quot; &quot; : acres[i]) || &quot;&quot;,&#xd;&#xa;              (hectares1[i] === &quot;0&quot; ? &quot; &quot; : hectares1[i]) || &quot;&quot;,&#xd;&#xa;&#xd;&#xa;              areas[i] || &quot;&quot;,&#xd;&#xa;              hectares2[i] || &quot;&quot;,&#xd;&#xa;              remarks[i] || &quot;&quot;,&#xd;&#xa;            ];&#xd;&#xa;&#xd;&#xa;            cells.forEach((value) => {&#xd;&#xa;              const cell = document.createElement(&quot;td&quot;);&#xd;&#xa;              cell.textContent = value;&#xd;&#xa;              row.appendChild(cell);&#xd;&#xa;            });&#xd;&#xa;&#xd;&#xa;            tableBody.appendChild(row);&#xd;&#xa;          }&#xd;&#xa;        }&#xd;&#xa;&#xd;&#xa;        // Call the function to populate the table initially&#xd;&#xa;        refreshTable();&#xd;&#xa;      &lt;/script>&#xd;&#xa;&#xd;&#xa;      &lt;br />&lt;br />&#xd;&#xa;      &lt;p>&#xd;&#xa;        &amp;emsp; &amp;emsp;నోటీసు జారి చేసిన&#xd;&#xa;        తేది:&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&#xd;&#xa;        &amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&#xd;&#xa;        సర్వే అధికారి&#xd;&#xa;      &lt;/p>&#xd;&#xa;    &lt;/div>&#xd;&#xa;&#xd;&#xa;    &lt;br />&#xd;&#xa;&#xd;&#xa;    &lt;p style=&quot;text-align: center&quot;>&#xd;&#xa;      ---------------------------------------------------------✂️---------------------------------------------------------&#xd;&#xa;    &lt;/p>&#xd;&#xa;&#xd;&#xa;    &lt;br />&#xd;&#xa;&#xd;&#xa;    &lt;div class=&quot;bordered&quot; style=&quot;text-align: Justify&quot;>&#xd;&#xa;      &lt;h1&#xd;&#xa;        style=&quot;&#xd;&#xa;          text-align: center;&#xd;&#xa;          margin-top: px;&#xd;&#xa;          margin-top: 0px;&#xd;&#xa;          margin-bottom: 0px;&#xd;&#xa;        &quot;&#xd;&#xa;      >&#xd;&#xa;        ఫారం – 46 (a)&#xd;&#xa;      &lt;/h1>&#xd;&#xa;      &lt;h2 style=&quot;text-align: center; margin-top: 0px; margin-bottom: 0px&quot;>&#xd;&#xa;        రశీదు&#xd;&#xa;      &lt;/h2>&#xd;&#xa;&#xd;&#xa;      &lt;p style=&quot;text-align: left&quot;>&#xd;&#xa;        &amp;emsp;  [%@District_Name%] జిల్లా, [%@notice_mandal%] మండలం, [%@notice_village%] గ్రామము నందు&#xd;&#xa;        రీసర్వే నిర్వహించి, ల్యాండ్ పార్సెల్ నెంబర్ &quot;[% eval(@lpm_variable_r)%]&quot;&#xd;&#xa;        విషయమై ఆంధ్రప్రదేశ్ సర్వే &amp; సరిహద్దుల చట్టం, 1923 లోని 9(2) సెక్షన్&#xd;&#xa;        ప్రకారము_________________ తేదీన జారీ చేసిన నోటీసు అందిన విషయాన్ని నేను&#xd;&#xa;        దృవీకరించుచున్నాను.&#xd;&#xa;      &lt;/p>&#xd;&#xa;&#xd;&#xa;      &lt;br />&#xd;&#xa;      &lt;p>స్తలము: [%@notice_village%]&lt;/p>&#xd;&#xa;&#xd;&#xa;      &lt;p style=&quot;text-align: left&quot;>&#xd;&#xa;        తేది: &amp;emsp; &amp;emsp; &amp;emsp;&amp;emsp;&amp;emsp; &amp;emsp; &amp;emsp; &amp;emsp; &amp;emsp;&#xd;&#xa;        &amp;emsp; &amp;emsp; &amp;emsp; &amp;emsp; &amp;emsp; &amp;emsp; &amp;emsp; &amp;emsp; &amp;emsp; &amp;emsp;&#xd;&#xa;        &amp;emsp; &amp;emsp; &amp;emsp;&amp;emsp;&amp;emsp; &amp;emsp;&amp;emsp; &amp;emsp; నోటీసు తీసుకున్న&#xd;&#xa;        వారి సంతకము&#xd;&#xa;      &lt;/p>&#xd;&#xa;    &lt;/div>&#xd;&#xa;  &lt;/body>&#xd;&#xa;&lt;/html>&#xd;&#xa;">
-  <childFrame uuid="{3f4baed2-98eb-4483-a195-74d960f8dd27}" templateUuid="{3f4baed2-98eb-4483-a195-74d960f8dd27}"/>
+ <LayoutItem sectionHeight="11.52" blendMode="0" id="" type="65647" itemRotation="0" positionOnPage="3.36485,0,mm" hidePageIfEmpty="0" positionLock="false" excludeFromExports="0" frameJoinStyle="miter" frame="false" sectionX="0" opacity="1" outlineWidthM="0.3,mm" templateUuid="{8b8a5413-46cc-4580-a71f-abd6fa8f194a}" multiFrame="{79bdb10d-540b-4180-84e6-21ef0dd40ca4}" sectionWidth="203.27" groupUuid="" size="203.27,11.52,mm" sectionY="287.04" visibility="1" position="3.36485,307,mm" zValue="2" referencePoint="0" multiFrameTemplateUuid="{79bdb10d-540b-4180-84e6-21ef0dd40ca4}" background="false" uuid="{8b8a5413-46cc-4580-a71f-abd6fa8f194a}" hideBackgroundIfEmpty="1">
+  <FrameColor green="0" alpha="255" red="0" blue="0"/>
+  <BackgroundColor green="255" alpha="255" red="255" blue="255"/>
   <LayoutObject>
    <dataDefinedProperties>
     <Option type="Map">
-     <Option type="QString" value="" name="name"/>
+     <Option name="name" type="QString" value=""/>
      <Option name="properties"/>
-     <Option type="QString" value="collection" name="type"/>
+     <Option name="type" type="QString" value="collection"/>
+    </Option>
+   </dataDefinedProperties>
+   <customproperties>
+    <Option/>
+   </customproperties>
+  </LayoutObject>
+ </LayoutItem>
+ <LayoutMultiFrame html="&lt;!DOCTYPE html>&#xd;&#xa;&lt;html lang=&quot;en&quot;>&#xd;&#xa;  &lt;head>&#xd;&#xa;    &lt;meta charset=&quot;UTF-8&quot; />&#xd;&#xa;    &lt;title>gv_notices&lt;/title>&#xd;&#xa;    &lt;style>&#xd;&#xa;      /* Apply styles for page breaks */&#xd;&#xa;&#x9;  table {&#xd;&#xa;    width: 100%;&#xd;&#xa;    border-collapse: collapse;&#xd;&#xa;    border: 2px solid black; /* Border for the entire table */&#xd;&#xa;  }&#xd;&#xa;&#xd;&#xa;  th, td {&#xd;&#xa;    max-width: 200px; /* Set maximum width for cells */&#xd;&#xa;    word-wrap: break-word; /* Allow word wrapping within cells */&#xd;&#xa;    border: 1px solid black; /* Border for individual cells */&#xd;&#xa;    padding: 5px; /* Adjust padding as needed */&#xd;&#xa;  }&#xd;&#xa;      .columnClass {&#xd;&#xa;&#x9;  &#xd;&#xa;        font-family: Calibri;&#xd;&#xa;      }&#xd;&#xa;      h1,&#xd;&#xa;      h2,&#xd;&#xa;      h3,&#xd;&#xa;      p,&#xd;&#xa;      tr {&#xd;&#xa;        font-family: Gautami, Nirmala UI, Vani;&#xd;&#xa;      }&#xd;&#xa;      h1,&#xd;&#xa;      h2 {&#xd;&#xa;        margin: 0;&#xd;&#xa;        line-height: 1.2;&#xd;&#xa;        text-decoration: underline;&#xd;&#xa;      }&#xd;&#xa;&#xd;&#xa;      p {&#xd;&#xa;        margin: 0;&#xd;&#xa;        text-align: Justify;&#xd;&#xa;        line-height: 1.5;&#xd;&#xa;      }&#xd;&#xa;      h3 {&#xd;&#xa;        text-align: left;&#xd;&#xa;        margin-bottom: 0;&#xd;&#xa;        line-height: 1;&#xd;&#xa;      }&#xd;&#xa;      .bordered {&#xd;&#xa;        word-wrap: break-word;&#xd;&#xa;        border: 2px solid black; /* 1px solid black border */&#xd;&#xa;        padding: 10px; /* Optional: Add padding to the element */&#xd;&#xa;      }&#xd;&#xa;    &lt;/style>&#xd;&#xa;  &lt;/head>&#xd;&#xa;  &lt;body>&#xd;&#xa;    &lt;!-- First page content -->&#xd;&#xa;    &lt;div class=&quot;bordered&quot;>&#xd;&#xa;      &lt;h1&#xd;&#xa;        style=&quot;&#xd;&#xa;          text-align: center;&#xd;&#xa;          margin-top: px;&#xd;&#xa;          margin-top: 0px;&#xd;&#xa;          margin-bottom: 0px;&#xd;&#xa;        &quot;&#xd;&#xa;      >&#xd;&#xa;        ఫారం – 46&#xd;&#xa;      &lt;/h1>&#xd;&#xa;      &lt;h2 style=&quot;text-align: center; margin-top: 0px; margin-bottom: 0px&quot;>&#xd;&#xa;        ఆంధ్రప్రదేశ్ సర్వే మరియు సరిహద్దుల చట్టం, 1923 లోని 9(2) సెక్షన్&#xd;&#xa;        ప్రకారము నోటీసు&#xd;&#xa;      &lt;/h2>&#xd;&#xa;&#xd;&#xa;      &lt;h3>&#xd;&#xa;        శ్రీ [%&quot;pattadar&quot; || coalesce( ' / ' || &quot;pattadarrelation&quot; ,'') || ' ('&#xd;&#xa;        || &quot;khata_no&quot; || ')'%],&#xd;&#xa;      &lt;/h3>&#xd;&#xa;      &lt;p&#xd;&#xa;        style=&quot;&#xd;&#xa;          font-weight: bold;&#xd;&#xa;          text-align: left;&#xd;&#xa;          margin-top: px;&#xd;&#xa;          margin-top: 0px;&#xd;&#xa;          margin-bottom: 7px;&#xd;&#xa;        &quot;&#xd;&#xa;      >&#xd;&#xa;        [%@notice_village%] గ్రామం, [%@notice_mandal%] మండలం  [%@District_Name%] జిల్లా.&#xd;&#xa;      &lt;/p>&#xd;&#xa;      &lt;p>&#xd;&#xa;        &amp;emsp;సదరు చట్టం 9(1) వ సెక్షన్ ప్రకారము ఈ క్రింద సంతకము చేసిన సమర్ధ&#xd;&#xa;        సర్వే అధికారి వల్ల ఈ క్రింది తెలిపిన వివరములను నిర్ణయించడమైనది.&#xd;&#xa;&#xd;&#xa;        &lt;br />&amp;emsp; ఈ క్రింది జాబితా నందు తెలిపిన భూముల సరిహద్దుల నిర్ణయం మరియు&#xd;&#xa;        కొలత సమయము నందు ఏవిధమైన తగాదాలు నాకు తెలియపరచనందున, సదరు చట్టం లోని&#xd;&#xa;        10(1) సెక్షన్ ననుసరించి, అభ్యంతరములు ఏమియు లేవని భావించి నేను&#xd;&#xa;        ఇందుమూలముగా ఈ భూమి యొక్క సర్వే పటములలో పొందుపరచబడిన సరిహద్దులు తగాదాలు&#xd;&#xa;        లేనట్లుగాను, అవిసరిగా వున్నవని నిర్ధారించి రికార్డులు తయారు&#xd;&#xa;        చేసియున్నాను.&#xd;&#xa;&#xd;&#xa;        &lt;br />&amp;emsp;సదరు సర్వే రిజిస్టర్ లో నమోదు కాబడిన భూముల వివరములను ఈ&#xd;&#xa;        క్రింది తెలిపిన జాబితా లో తెలియపరచడమైనది. ఈ జాబితా పై ఏవిధమైన&#xd;&#xa;        అభ్యంతరములు ఉన్నచో వాటిని ఈ నోటీసు జారీ అయిన తేది నుండి 21 దినములలో మండల&#xd;&#xa;        రెవిన్యూ కార్యాలయము లో వుండు అప్పీలు సర్వే అధికారి గారికి తగిన నమూనా&#xd;&#xa;        పత్రములో అప్పీలు సమర్పించుకోవచ్చును. ప్రత్యేక విషయములో తప్ప, ప్రతి సర్వే&#xd;&#xa;        పటమునకు సాధారముగా 50/- రూ. రుసుము దరఖాస్తుతో జతపరచి సర్వే పటము కాపీలను&#xd;&#xa;        పొందవచ్చును.&#xd;&#xa;&#xd;&#xa;        &lt;br />&amp;emsp;షరా: ఆంధ్రప్రదేశ్ సర్వే మరియు సరిహద్దుల చట్టం, 1923 లోని&#xd;&#xa;        10(1) వ సిక్షన్ ప్రకారము ఈ భూమి సరిహద్దుల విషయమై ఎటువంటి అభ్యంతరము&#xd;&#xa;        లేదనియు, సెక్షన్ (11) ప్రకారము అప్పీలు మాత్రమే వున్నదని తెలియచేయడమైనది.&#xd;&#xa;      &lt;/p>&#xd;&#xa;      &lt;br />&#xd;&#xa;&#xd;&#xa;      &lt;table&#xd;&#xa;        border=&quot;1&quot;&#xd;&#xa;        cellpadding=&quot;0&quot;&#xd;&#xa;        cellspacing=&quot;0&quot;&#xd;&#xa;        style=&quot;&#xd;&#xa;          width: 100%;&#xd;&#xa;&#xd;&#xa;          text-align: center;&#xd;&#xa;          border-collapse: collapse;&#xd;&#xa;          border: 1px solid black;&#xd;&#xa;        &quot;&#xd;&#xa;      >&#xd;&#xa;        &lt;tbody id=&quot;tableBody&quot;>&#xd;&#xa;          &lt;!-- Existing rows -->&#xd;&#xa;          &lt;tr&#xd;&#xa;            style=&quot;&#xd;&#xa;              height: 20px;&#xd;&#xa;              font-weight: bold;&#xd;&#xa;              font-family: Gautami, Nirmala UI, Vani;&#xd;&#xa;            &quot;&#xd;&#xa;          >&#xd;&#xa;            &lt;td>ప్రస్తుత రీ సర్వే&lt;/td>&#xd;&#xa;            &lt;td colspan=&quot;3&quot;>రికార్డ్స్ అఫ్ రైట్స్ ప్రకారం&lt;/td>&#xd;&#xa;            &lt;td colspan=&quot;2&quot;>ప్రస్తుత రీ సర్వే ప్రకారము&lt;/td>&#xd;&#xa;            &lt;td rowspan=&quot;3&quot;>రిమార్కులు&lt;/td>&#xd;&#xa;          &lt;/tr>&#xd;&#xa;          &lt;tr style=&quot;font-weight: bold; font-family: Gautami, Nirmala UI, Vani&quot;>&#xd;&#xa;            &lt;td rowspan=&quot;2&quot;>ల్యాండ్ పార్సెల్ నెంబర్&lt;/td>&#xd;&#xa;            &lt;td rowspan=&quot;2&quot;>సర్వే నెంబరు- సబ్ డివిజన్ నెంబర్&lt;/td>&#xd;&#xa;            &lt;td colspan=&quot;2&quot;>విస్తీరణము&lt;/td>&#xd;&#xa;            &lt;td colspan=&quot;2&quot;>విస్తీరణము&lt;/td>&#xd;&#xa;          &lt;/tr>&#xd;&#xa;          &lt;tr&#xd;&#xa;            style=&quot;&#xd;&#xa;              height: 20px;&#xd;&#xa;              font-weight: bold;&#xd;&#xa;              font-family: Gautami, Nirmala UI, Vani;&#xd;&#xa;            &quot;&#xd;&#xa;          >&#xd;&#xa;            &lt;td>ఎ. సెంట్లు&lt;/td>&#xd;&#xa;            &lt;td>హె.ఏర్లు. చ.మీ&lt;/td>&#xd;&#xa;            &lt;td>ఎ. సెంట్లు&lt;/td>&#xd;&#xa;            &lt;td>హె.ఏర్లు. చ.మీ&lt;/td>&#xd;&#xa;          &lt;/tr>&#xd;&#xa;        &lt;/tbody>&#xd;&#xa;      &lt;/table>&#xd;&#xa;&#xd;&#xa;      &lt;script>&#xd;&#xa;        function refreshTable() {&#xd;&#xa;          const tableBody = document.getElementById(&quot;tableBody&quot;);&#xd;&#xa;&#xd;&#xa;          let lpm_no = &quot;[% eval(@lpm_variable)%]&quot;.split(&quot;$%*&lt;>^~@&quot;);&#xd;&#xa;&#xd;&#xa;          let acres = &quot;[% eval(@old_acvariable)%]&quot;.split(&quot;$%*&lt;>^~@&quot;);&#xd;&#xa;&#xd;&#xa;          let hectares1 = &quot;[% eval(@old_hectvariable)%]&quot;.split(&quot;$%*&lt;>^~@&quot;);&#xd;&#xa;&#xd;&#xa;          let areas = &quot;[% eval(@new_acvariable)%]&quot;.split(&quot;$%*&lt;>^~@&quot;);&#xd;&#xa;          let hectares2 = &quot;[% eval(@new_hectvariable)%]&quot;.split(&quot;$%*&lt;>^~@&quot;);&#xd;&#xa;          let remarks = &quot;[% eval(@remarksvariable)%]&quot;.split(&quot;$%*&lt;>^~@&quot;);&#xd;&#xa;&#xd;&#xa;          let surveyNos = &quot;[% eval(@synosvariable)%]&quot;.split(&quot;$%*&lt;>^~@&quot;);&#xd;&#xa;&#xd;&#xa;          const numRows = Math.max(&#xd;&#xa;            lpm_no.length,&#xd;&#xa;            surveyNos.length,&#xd;&#xa;            acres.length,&#xd;&#xa;            hectares1.length,&#xd;&#xa;            areas.length,&#xd;&#xa;            hectares2.length,&#xd;&#xa;            remarks.length&#xd;&#xa;          );&#xd;&#xa;&#xd;&#xa;          for (let i = 0; i &lt; numRows; i++) {&#xd;&#xa;            const row = document.createElement(&quot;tr&quot;);&#xd;&#xa;            row.classList.add(&quot;columnClass&quot;);&#xd;&#xa;            const cells = [&#xd;&#xa;              lpm_no[i] || &quot;&quot;,&#xd;&#xa;              surveyNos[i] || &quot;&quot;,&#xd;&#xa;              (acres[i] === &quot;0&quot; ? &quot; &quot; : acres[i]) || &quot;&quot;,&#xd;&#xa;              (hectares1[i] === &quot;0&quot; ? &quot; &quot; : hectares1[i]) || &quot;&quot;,&#xd;&#xa;&#xd;&#xa;              areas[i] || &quot;&quot;,&#xd;&#xa;              hectares2[i] || &quot;&quot;,&#xd;&#xa;              remarks[i] || &quot;&quot;,&#xd;&#xa;            ];&#xd;&#xa;&#xd;&#xa;            cells.forEach((value) => {&#xd;&#xa;              const cell = document.createElement(&quot;td&quot;);&#xd;&#xa;              cell.textContent = value;&#xd;&#xa;              row.appendChild(cell);&#xd;&#xa;            });&#xd;&#xa;&#xd;&#xa;            tableBody.appendChild(row);&#xd;&#xa;          }&#xd;&#xa;        }&#xd;&#xa;&#xd;&#xa;        // Call the function to populate the table initially&#xd;&#xa;        refreshTable();&#xd;&#xa;      &lt;/script>&#xd;&#xa;&#xd;&#xa;      &lt;br />&lt;br />&#xd;&#xa;      &lt;p>&#xd;&#xa;        &amp;emsp; &amp;emsp;నోటీసు జారి చేసిన&#xd;&#xa;        తేది:&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&#xd;&#xa;        &amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&amp;emsp;&#xd;&#xa;        సర్వే అధికారి&#xd;&#xa;      &lt;/p>&#xd;&#xa;    &lt;/div>&#xd;&#xa;&#xd;&#xa;    &lt;br />&#xd;&#xa;&#xd;&#xa;    &lt;p style=&quot;text-align: center&quot;>&#xd;&#xa;      ---------------------------------------------------------✂️---------------------------------------------------------&#xd;&#xa;    &lt;/p>&#xd;&#xa;&#xd;&#xa;    &lt;br />&#xd;&#xa;&#xd;&#xa;    &lt;div class=&quot;bordered&quot; style=&quot;text-align: Justify&quot;>&#xd;&#xa;      &lt;h1&#xd;&#xa;        style=&quot;&#xd;&#xa;          text-align: center;&#xd;&#xa;          margin-top: px;&#xd;&#xa;          margin-top: 0px;&#xd;&#xa;          margin-bottom: 0px;&#xd;&#xa;        &quot;&#xd;&#xa;      >&#xd;&#xa;        ఫారం – 46 (a)&#xd;&#xa;      &lt;/h1>&#xd;&#xa;      &lt;h2 style=&quot;text-align: center; margin-top: 0px; margin-bottom: 0px&quot;>&#xd;&#xa;        రశీదు&#xd;&#xa;      &lt;/h2>&#xd;&#xa;&#xd;&#xa;      &lt;p style=&quot;text-align: left&quot;>&#xd;&#xa;        &amp;emsp;  [%@District_Name%] జిల్లా, [%@notice_mandal%] మండలం, [%@notice_village%] గ్రామము నందు&#xd;&#xa;        రీసర్వే నిర్వహించి, ల్యాండ్ పార్సెల్ నెంబర్ &quot;[% eval(@lpm_variable_r)%]&quot;&#xd;&#xa;        విషయమై ఆంధ్రప్రదేశ్ సర్వే &amp; సరిహద్దుల చట్టం, 1923 లోని 9(2) సెక్షన్&#xd;&#xa;        ప్రకారము_________________ తేదీన జారీ చేసిన నోటీసు అందిన విషయాన్ని నేను&#xd;&#xa;        దృవీకరించుచున్నాను.&#xd;&#xa;      &lt;/p>&#xd;&#xa;&#xd;&#xa;      &lt;br />&#xd;&#xa;      &lt;p>స్తలము: [%@notice_village%]&lt;/p>&#xd;&#xa;&#xd;&#xa;      &lt;p style=&quot;text-align: left&quot;>&#xd;&#xa;        తేది: &amp;emsp; &amp;emsp; &amp;emsp;&amp;emsp;&amp;emsp; &amp;emsp; &amp;emsp; &amp;emsp; &amp;emsp;&#xd;&#xa;        &amp;emsp; &amp;emsp; &amp;emsp; &amp;emsp; &amp;emsp; &amp;emsp; &amp;emsp; &amp;emsp; &amp;emsp; &amp;emsp;&#xd;&#xa;        &amp;emsp; &amp;emsp; &amp;emsp;&amp;emsp;&amp;emsp; &amp;emsp;&amp;emsp; &amp;emsp; నోటీసు తీసుకున్న&#xd;&#xa;        వారి సంతకము&#xd;&#xa;      &lt;/p>&#xd;&#xa;    &lt;/div>&#xd;&#xa;  &lt;/body>&#xd;&#xa;&lt;/html>&#xd;&#xa;" evaluateExpressions="true" resizeMode="1" contentMode="1" type="65648" uuid="{79bdb10d-540b-4180-84e6-21ef0dd40ca4}" templateUuid="{79bdb10d-540b-4180-84e6-21ef0dd40ca4}" useSmartBreaks="true" url="" maxBreakDistance="16" stylesheet="" stylesheetEnabled="false">
+  <childFrame uuid="{58baf5b8-8147-48a7-9fed-cc1330e7a52a}" templateUuid="{58baf5b8-8147-48a7-9fed-cc1330e7a52a}"/>
+  <childFrame uuid="{8b8a5413-46cc-4580-a71f-abd6fa8f194a}" templateUuid="{8b8a5413-46cc-4580-a71f-abd6fa8f194a}"/>
+  <LayoutObject>
+   <dataDefinedProperties>
+    <Option type="Map">
+     <Option name="name" type="QString" value=""/>
+     <Option name="properties"/>
+     <Option name="type" type="QString" value="collection"/>
     </Option>
    </dataDefinedProperties>
    <customproperties>
@@ -137,20 +212,20 @@
  </LayoutMultiFrame>
  <customproperties>
   <Option type="Map">
-   <Option type="QString" value="png" name="atlasRasterFormat"/>
-   <Option type="int" value="1" name="forceVector"/>
-   <Option type="int" value="1" name="pdfAppendGeoreference"/>
-   <Option type="int" value="0" name="pdfCreateGeoPdf"/>
-   <Option type="int" value="0" name="pdfDisableRasterTiles"/>
-   <Option type="QString" value="" name="pdfExportThemes"/>
-   <Option type="int" value="0" name="pdfIncludeMetadata"/>
-   <Option type="QString" value="damara_bb8ac907_4b41_4f50_bc8b_8ba72f34bc13" name="pdfLayerOrder"/>
-   <Option type="int" value="1" name="pdfLosslessImages"/>
-   <Option type="int" value="0" name="pdfOgcBestPracticeFormat"/>
-   <Option type="int" value="1" name="pdfSimplify"/>
-   <Option type="int" value="1" name="pdfTextFormat"/>
-   <Option type="bool" value="true" name="singleFile"/>
+   <Option name="atlasRasterFormat" type="QString" value="png"/>
+   <Option name="forceVector" type="int" value="1"/>
+   <Option name="pdfAppendGeoreference" type="int" value="1"/>
+   <Option name="pdfCreateGeoPdf" type="int" value="0"/>
+   <Option name="pdfDisableRasterTiles" type="int" value="0"/>
+   <Option name="pdfExportThemes" type="QString" value=""/>
+   <Option name="pdfIncludeMetadata" type="int" value="0"/>
+   <Option name="pdfLayerOrder" type="QString" value="damara_bb8ac907_4b41_4f50_bc8b_8ba72f34bc13"/>
+   <Option name="pdfLosslessImages" type="int" value="1"/>
+   <Option name="pdfOgcBestPracticeFormat" type="int" value="0"/>
+   <Option name="pdfSimplify" type="int" value="1"/>
+   <Option name="pdfTextFormat" type="int" value="1"/>
+   <Option name="singleFile" type="bool" value="true"/>
   </Option>
  </customproperties>
- <Atlas coverageLayerName="Khata_Data" enabled="1" filenamePattern=" eval( @atlaspgname) ||  replace(  &quot;pattadar&quot; ,'/','_')" pageNameExpression=" eval( @atlaspgname)" filterFeatures="0" coverageLayerProvider="ogr" coverageLayer="Khata_Data_5ef31525_ee72_4a30_822a_0556f5ca3a19" coverageLayerSource="D:/R-Lpms/test/modeltest/modeltest/Khata_Data.gpkg" sortKey="to_real(  eval( @atlaspgname))" sortAscending="1" hideCoverage="0" sortFeatures="1"/>
+ <Atlas enabled="1" sortFeatures="1" sortKey="to_real(  eval( @atlaspgname))" filterFeatures="0" coverageLayerName="Khata_Data" coverageLayerProvider="ogr" hideCoverage="0" filenamePattern=" eval( @atlaspgname) ||  replace(  &quot;pattadar&quot; ,'/','_')" coverageLayer="Khata_Data_abf84505_361b_464e_aeb8_b3a53d069654" pageNameExpression=" eval( @atlaspgname)" coverageLayerSource="D:/notice/Khata_Data.gpkg" sortAscending="1"/>
 </Layout>
